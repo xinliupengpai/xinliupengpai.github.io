@@ -131,6 +131,7 @@ comments:
     clientSecret: "248a83897e4af5e6dfeec793d6156969ad9b77c2" # GitHub Application Client Secret
     repository  : "xinliupengpai.github.io" # GitHub repo
     owner       : "xinliupengpai" # GitHub repo owner
+    proxy: "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
       - "xinliupengpai"
@@ -209,11 +210,11 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: true
+      license: false
       aside:
         toc: true
       show_edit_on_github: true
-      show_subscribe: true
+      show_subscribe: false
       pageview: true
 
 
