@@ -25,6 +25,7 @@
 		window.Lazyload.css('{{ _sources.gitalk.css }}');
 		window.Lazyload.js('{{ _sources.gitalk.js }}', function() {
 			var gitalk = new Gitalk({
+				proxy: '{{ site.comments.gitalk.proxy }}',
 				clientID: '{{ site.comments.gitalk.clientID }}',
 				clientSecret: '{{ site.comments.gitalk.clientSecret }}',
 				repo: '{{ site.comments.gitalk.repository }}',
