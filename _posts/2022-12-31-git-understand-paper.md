@@ -35,6 +35,7 @@ git status
 git diff file 工作区和暂存区
 git diff --staged file 暂存区和版本库
 git diff HEAD file 工作区和版本库
+git diff --stat f6792677a4d9..master
 
 git diff master dev
 git diff dev origin/master
