@@ -37,7 +37,7 @@ author:
   type      : # "person" (default), "organization"
   name      : 心流澎湃
   url       : https://xinliupengpai.github.io/
-  avatar    : https://avatars.githubusercontent.com/u/121562741?v=4 # path or url of avatar image (square)
+  avatar    : https://avatars.githubusercontent.com/u/121562741 # path or url of avatar image (square)
   bio       : 普通人，技术分享、常见问题解决方案、生活技巧、学习总结。
   email     : xinliupengpai@163.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
