@@ -203,6 +203,7 @@ exclude:
   - /test
   - /vendor
 
+# 默认参数
 defaults:
   - scope:
       path: ""
